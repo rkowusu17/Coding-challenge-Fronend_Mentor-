@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: DMSans;
-  src: url(/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+  src: url(/Bento-grid/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
 }
 img {
   width: 95%;
@@ -174,11 +174,13 @@ div {
   .cont1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
-    padding: 5em 2.5em;
+    padding: 3em 2.5em;
     font-size: var(--LFS);
   }
   .cont1 h2 {
-    width: 90%;
+    width: 75%;
+    text-align: left;
+    font-size: 2em;
   }
   .cont2 {
     gap: 5px;
@@ -206,10 +208,10 @@ div {
     width: 100%;
   }
   .cont3 img {
-    width: 360px;
+    width: 380px;
   }
   .span3 {
-    width: 95%;
+    width: 90%;
   }
   .cont4 {
     grid-column: 1 span 1;
@@ -235,10 +237,10 @@ div {
   .cont5 p {
     width: 90%;
     font-size: 2em;
-    font-weight: 900;
+    font-weight: 600;
   }
   .cont5 img {
-    width: 320px;
+    width: 380px;
   }
   .cont6 {
     height: auto;
@@ -248,13 +250,13 @@ div {
     /* padding: 2em 2em; */
   }
   .cont6 p {
-    padding-top: 3em;
-    font-size: 2em;
-    width: 90%;
-    font-weight: 900;
+    padding-top: 3.5em;
+    font-size: 2.2em;
+    width: 80%;
+    font-weight: 600;
   }
   .cont6 img {
-    width: 97%;
+    width: 80%;
     align-self: center;
   }
   .cont7 {
@@ -279,7 +281,7 @@ div {
   }
   .p8 {
     font-size: 3em;
-    width: 90%;
+    width: 50%;
     font-weight: 500;
     text-align: left;
   }
